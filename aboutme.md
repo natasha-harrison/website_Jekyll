@@ -1,9 +1,10 @@
 ---
 layout: page
 title: About me
+bigimg: /img/hills.jpg
 ---
 
-My interests are in assessing genetic data to uncover demographic and spatial information of populations. I am currently studying Computational Methods in Evolution and Ecology (MRes) at Imperial College London. I've spent several years working at a research site in the Kalahari desert studying habituated Meerkats.
+I am interested in assessing genetic data to uncover demographic and spatial information of populations. I am currently studying Computational Methods in Evolution and Ecology (MRes) at Imperial College London. Previously I spent 3 years working at a research site in the Kalahari desert studying habituated Meerkats (*Suricata suricatta*).
 
 
 # Education

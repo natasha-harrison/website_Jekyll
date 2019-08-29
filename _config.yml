@@ -29,7 +29,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/head2.png"
+avatar: "/img/head.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -68,7 +68,7 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  rss: true
+  #rss: true
   email: "jacob.42.brown@gmail.com"
   #facebook: jac
   github: "jacob-brown"
@@ -86,6 +86,7 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
+  #researchgate: 'jacob'
 
 # Select which share links to show in posts
 share-links-active:
@@ -103,7 +104,7 @@ url-pretty: "jacobbrown"  # eg. "deanattali.com/beautiful-jekyll"
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: "UA-146598429-1"
 
 # Google Tag Manager ID
 #gtm: ""
