@@ -72,7 +72,7 @@ social-network-links:
   email: "jacob.42.brown@gmail.com"
   #facebook: jac
   github: "jacob-brown"
-  #researchgate: "Jacob_Brown37"
+  researchgate: "Jacob_Brown37"
   #twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
@@ -86,7 +86,6 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-  researchgate: 'Jacob_Brown37'
 
 # Select which share links to show in posts
 share-links-active:
