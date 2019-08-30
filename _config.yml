@@ -14,7 +14,7 @@ description: My website
 url: "https://jacob-brown.github.io/"
 
 # baseurl should be an empty string
-#baseurl: ""
+#baseurl: "https://jacob-brown.github.io/"
 
 # --- Navigation bar options --- #
 
@@ -86,7 +86,7 @@ social-network-links:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-  #researchgate: 'jacob'
+  researchgate: 'Jacob_Brown37'
 
 # Select which share links to show in posts
 share-links-active:
