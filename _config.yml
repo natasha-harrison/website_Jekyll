@@ -22,8 +22,8 @@ url: "https://jacob-brown.github.io/"
 navbar-links:
   About Me: "aboutme"
   Research: "research"
-  #Blog:
-   # - Python: "python"
+  Blog:
+    - Python: "python"
     #- MySQL: ""
     #- R: ""
 
