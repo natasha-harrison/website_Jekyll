@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "PyInstaller - Standalone Python Applications for MacOS, Windows, and Linux"
-date: '2019-09-06'
+date: '2019-09-10'
 image: /img/pyinstaller.png
 categories: [python]
 tags: [python, app, development]
 ---
 
-We will explore the use of `PyInstaller` to create a cross-platform standalone application using python. For this tutorial I will be using `Tkinter` to visually demonstrate, however this may not be applicable for you. 
+We will explore the use of `PyInstaller` to create a cross-platform standalone application using python. For this tutorial I will be using `Tkinter` to visually demonstrate.
 
 PyInstaller can be used in **Python3** and **Python2**, similarly it creates applications for MacOS, Windows, and Linux. 
 
@@ -16,10 +16,10 @@ I will be using:
 * MacOS 10.12.6
 * PyInstaller 3.5
 
-**N.B.** - Python 3 has issues with importing a compatible version of tcl on MacOS, however the below explores a method working around this.
+**N.B.** - Currently Python 3 has issues with importing a compatible version of tcl on MacOS, however the below describes a method that works around this.
 
 ## Setup
-PyInstaller calls from within the *terminal*, from here we will install PyInstaller, create a working directory, and cd to it. 
+PyInstaller runs from within the terminal, from here we will install PyInstaller, create a working directory, and cd to it. 
 
 ```
 $ pip install pyinstaller
@@ -33,7 +33,7 @@ If needed: `pip install tkinter`.
 
 Save the below `tkinter` app as `DogsGo.py`.
 ```
-import tkinter as tk # note python 2 uses Tkinter
+import tkinter as tk 
 root = tk.Tk()
 root.title("DogsGo...")
 root.geometry('350x200')
@@ -53,7 +53,7 @@ Python 2 uses `import Tkinter` and Python 3 `import tkinter`.
 ## Build the application
 Before we build the application you should first understand flags, these are settings which you apply at the time of building. In many cases these can be applied after, however many are easiest to add at the point of build. For this example I will describe two, however more can be found [here](https://pyinstaller.readthedocs.io/en/stable/usage.html). 
 
-**-w, --windowed, --noconsole** - prevents terminal from appearing when app is opened.
+**-w, --windowed, --noconsole** - Prevents terminal from appearing when app is opened.
 >Windows and Mac OS X: do not provide a console window for standard i/o. On Mac OS X this also triggers building an OS X .app bundle. On Windows this option will be set if the first script is a ‘.pyw’ file. This option is ignored in *NIX systems.
 
 **-F, --onefile** - App is bundled into a single file. 
@@ -65,17 +65,21 @@ Before we build the application you should first understand flags, these are set
 ```
 $ pyinstaller --windowed --onefile DogsGo.py
 ```
-Once the build is complete, navigate to `dist` and run the `DogsGo` application. Or, `$ open dist/DogsGo.app` (change extension and path depending on OS).
+Once the build is complete, navigate to `dist` and run the `DogsGo` application. Or:
+```
+$ open dist/DogsGo.app
+````
+*change extension and path depending on OS.
 
 ### MacOS
 
-Currently the pyinstaller build on MacOS uses an incompatible version of tcl, resulting in the app immediately crashing when it opens (i.e. if you follow the above). Below is a method which allows the application to be opened by editing the `init.tcl` file. I have written a python script which makes the changes when run in the same directory as the `DogsGo.py` script.
+Currently the pyinstaller build on MacOS uses an incompatible version of tcl, resulting in the app immediately crashing when it opens (i.e. if you follow the above). Below is a method which allows the application to be opened by editing the `init.tcl` file. I have written a python script which makes these changes.
 
 ```
 $ pyinstaller --windowed  DogsGo.py
 ```
 
-The build will be created however the `Contents` of the application will remain as separate files. Clone the `TCLChanger.py` from my git repository and run. 
+The build will be created however the `Contents` of the application will remain as separate files. Clone the `TCLChanger.py` from my git repository and run in the same working directory as your original python script. 
 
 ```
 $ git clone https://github.com/jacob-brown/TCLChanger.git

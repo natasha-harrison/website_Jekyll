@@ -5,7 +5,7 @@ bigimg: /img/meerkat-hudle.jpg
 ---
 
 # Publications
-None, co-author papers currently in discussion.
+Co-author papers currently in discussion.
 
 # Research Contributions
 * **Data Extraction (2019)**: Depo-provera contraception experiment in Meerkats (*Suricata suricatta*), data extraction (MySQL), cleaning, and wrangling as part of work for Dr Dominic Cram (University of Cambridge).
