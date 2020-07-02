@@ -1,7 +1,7 @@
 # --- General options --- #
 
 # Name of website
-title: Jacob Brown
+title: Natasha Harrison
 
 # Short description of your site
 description: My website
@@ -11,7 +11,7 @@ description: My website
 # *** If you're not sure what this mean, then leave this section as it is. Only modify the url and baseurl if you know what you're doing!***
 
 # url is the the website domain URL without a trailing slash
-url: "https://jacob-brown.github.io/"
+url: "https://natasha-harrison.github.io/"
 
 # baseurl should be an empty string
 #baseurl: "https://jacob-brown.github.io/"
@@ -22,8 +22,9 @@ url: "https://jacob-brown.github.io/"
 navbar-links:
   About Me: "aboutme"
   Research: "research"
-  Blog:
-    - Python: "python"
+  Outreach: "outreach"
+  #Blog:
+    #- Python: "python"
     #- MySQL: ""
     #- R: ""
 
@@ -61,7 +62,7 @@ footer-link-col: "#404040"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Jacob Brown
+  name: Natasha Harrison
 
 # Select your active Social Network Links.
 # Uncomment the links you want to show in the footer and add your information to each link.
@@ -69,10 +70,10 @@ author:
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
   #rss: true
-  email: "jacob.42.brown@gmail.com"
+  email: "tash.d.harrison@gmail.com"
   #facebook: jac
-  github: "jacob-brown"
-  researchgate: "Jacob_Brown37"
+  github: "natasha-harrison"
+  researchgate: "Natasha_Harrison6"
   #twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
@@ -95,7 +96,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://jacob-brown.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "https://natasha-harrison.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
@@ -103,7 +104,7 @@ url-pretty: "https://jacob-brown.github.io/"  # eg. "deanattali.com/beautiful-je
 #gtag: ""
 
 # Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-146598429-1"
+#google_analytics: ""
 
 # Google Tag Manager ID
 #gtm: ""
