@@ -1,60 +1,20 @@
 ---
 layout: page
 title: About me
-bigimg: /img/hills.jpg
+bigimg: /img/Meerkat.jpeg
 ---
 
-I am interested in revealing population demographics and histories through a genetic lens. I am currently studying Computational Methods in Evolution and Ecology (MRes) at Imperial College London. Previously I spent 3 years working at a research site in the Kalahari desert studying habituated Meerkats (*Suricata suricatta*).
+<i class="fas fa-pencil-alt"></i> My primary interests surround the combination of population and behavioural ecology. By integrating individual, social, and environmental factors, I seek to determine proximate causes of behavioural responses, and to identify their influence on population-level demographic processes. My multidisciplinary approach and unique skill set have lead to a variety of fruitful international collaborations. I have a strong analytical and field-based background, and now aim to extend further into research - specifically beginning to explore and answer my own questions, and working towards the conservation of Australia's unique biodiversity. 
 
 
-# Education
-* MRes Computational Methods in Evolution and Ecology - Imperial College London (present)
-* BSc (Hon) Zoology - Cardiff University (2013-2016)
+<i class="fas fa-graduation-cap"></i> I completed my Bachelor of Science, majoring in Zoology and Conservation Biology at the University of Western Australia. After gaining some field experience, I then completed a Masters in Quantitative Environmental Sciences at the University of Zurich. I worked with Prof. Arpat Ozgul and Dr. Gabriele Cozzi in the [PopEcol](http://www.popecol.org/) population ecology lab.
 
-# Experience
-* Research Project Manager - Kalahari Meerkat Project (2017-2019)
-* Research Assistant - Kalahari Meerkat Project (2016-2017)
 
-# Skills
+<i class="fas fa-leaf"></i> I have an underlying passion for field work, and happily take any chance I can to get back out there! I possess a wide range of field skills, from capturing animals and recording behavioural observations to radio telometry and accelerometer collar deployment.
 
-## Informatics
-* Python
-* R
-* MySQL
-* Markdown
-* Git
-* Bash/Unix
-* Latex
 
-## Analytical 
-* Spatial Data Analysis
-* Population Modelling
-* Model Fitting   
-	* General and Generalised Linear
-	* Non-Linear
+<i class="fas fa-laptop-code"></i> I conduct the majority of my analyses in R, using techniques such as generalized mixed effects modelling, Cox's proportional hazard modelling, and principal component analyses. I have recently been working on my population modelling skills, using a Bayesian framework to build N-mixture, CJS and multistate population models. I am capable of programming using languages including MySQL, R, Markdown, Latex and JAGS, and Python.
 
-## Field
-* Blood sampling of small mammals 
-* Small mammal trapping
-* Pit fall trapping (insect and reptile)
-* Bird ringing
-* Radio Tracking (VHF)
-* Behavioural observation data collection (terrestrial and aquatic)
-* 4x4 driving
+<i class="fas fa-binoculars"></i> My hobbies include drinking tea, being outdoors (hiking, camping and snorkelling), gardening, playing board games, and the occassional skeleton articulation. I also have a passion for travelling abroad and exploring new cultures, especially exotic wildlife!
 
-## Leadership
-* Masters course representative
-* Manager at a research project at a remote field site
-* Scheduling data collection
-* Chairing research site meetings
 
-# Other Interests
-* Brewing Beer
-* Photography
-* Mountain Biking
-* Hiking
-  
-# Membership
-* British Ecological Society
-* London Bat Group
-* Cardiff University Wildlife and Conservation Society (2013-2016)

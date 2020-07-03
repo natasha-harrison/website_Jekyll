@@ -90,13 +90,12 @@ social-network-links:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
   facebook: true
   linkedin: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "https://natasha-harrison.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "natasha-harrison.github.io/"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Web Statistics Section --- #
 
