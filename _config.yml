@@ -71,9 +71,10 @@ author:
 social-network-links:
   #rss: true
   email: "tash.d.harrison@gmail.com"
-  #facebook: jac
   github: "natasha-harrison"
   researchgate: "Natasha_Harrison6"
+  instagram: "tashhaz"
+  orcid: "0000-0001-5779-0187"
   #twitter: daattali
 #  reddit: yourname
 #  linkedin: daattali
@@ -91,7 +92,8 @@ social-network-links:
 # Select which share links to show in posts
 share-links-active:
   facebook: true
-  linkedin: true
+  orcid: true
+  instagram: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
