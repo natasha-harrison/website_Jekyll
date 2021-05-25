@@ -73,6 +73,7 @@ social-network-links:
   email: "tash.d.harrison@gmail.com"
   github: "natasha-harrison"
   researchgate: "Natasha_Harrison6"
+  twitter: "tash_harro"
   instagram: "tashhaz"
   orcid: "0000-0001-5779-0187"
   #twitter: daattali
@@ -93,6 +94,7 @@ social-network-links:
 share-links-active:
   facebook: true
   orcid: true
+  twitter: true
   instagram: true
 
 # How to display the link to the website in the footer
